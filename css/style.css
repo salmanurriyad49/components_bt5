@@ -1,0 +1,18 @@
+/*tooltip start*/
+.container{
+	padding: 50px 0;
+	padding-left: 100px;
+}
+
+.c_left, .c_top, .c_bottom, .c_right{
+	margin: 20px;
+}
+/*tooltip end*/
+
+h2{
+	margin: 30px 0;
+}
+
+.head{
+	margin: 0;
+}

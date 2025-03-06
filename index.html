@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Components bt5</title>
+	<link rel="icon" href="images/favicon.jpg">
+	<!-- font links -->
+	<!-- css links -->
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/media.css">
+</head>
+<body>
+    
+    <!-- tooltip start -->
+    <div class="container">
+    	<i><h3>Tooltip</h3></i>
+
+    	<button type="button" class="btn btn-danger c_left" data-bs-toggle="tooltip" data-bs-placement="left"data-bs-title="Bangladesh Cricket Board">BCB</button>
+        <button type="button" class="btn btn-secondary c_top" data-bs-toggle="tooltip" data-bs-placement="top"data-bs-title="Bangladesh Football Federation">BFF</button>
+        <button type="button" class="btn btn-primary c_bottom" data-bs-toggle="tooltip" data-bs-placement="bottom"data-bs-title="Dhaka University of Engineering & Technology">DUET</button>
+        <button type="button" class="btn btn-dark c_top" data-bs-toggle="tooltip" data-bs-placement="top"data-bs-title="World Health Organization">WHO</button>
+        <button type="button" class="btn btn-success c_bottom" data-bs-toggle="tooltip" data-bs-placement="bottom"data-bs-title="Special Security Force">SSF</button>
+        <button type="button" class="btn btn-info c_right" data-bs-toggle="tooltip" data-bs-placement="right"data-bs-title="Rapid Action Battalion">RAB</button>
+    	
+    <!-- tooltip end -->
+
+    <!-- header start -->
+    <header>
+
+    	<!-- nav start -->
+    	<i><h2>Navbar</h2></i>
+
+            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+              <div class="container-fluid btn btn-warning">
+                <a class="navbar-brand" href="#">Navbar</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarS" aria-controls="navbarS" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarS">
+                  <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Dropdown</a>
+                      <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                      </ul>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                    </li>
+                  </ul>
+                  <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                  </form>
+                </div>
+              </div>
+            </nav>
+
+    	<!-- nav end -->
+    </header>
+    <!-- header end -->
+
+    <!-- accordion start -->
+        <h2><i>Accordion</i></h2>
+        <div class="row">
+        	<div class="col-lg-12">
+        		<div class="accordion" id="acc_exp">
+
+        		  <!-- item start -->
+                  <div class="accordion-item">
+                    <h2 class="accordion-header head">
+                      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#c_one" aria-expanded="true" aria-controls="c_one">Lorem ipsum dolor sit amet.</button>
+                    </h2>
+                      <div id="c_one" class="accordion-collapse collapse show" data-bs-parent="#acc_exp">
+                        <div class="accordion-body">
+                          <p class="mb-0">This is the first item's accordion body.It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the .accordion-body, though the transition does limit overflo
+                        </div>
+                      </div>
+                  </div>
+                  <!-- item end -->
+                  <!-- item start -->
+                  <div class="accordion-item">
+                    <h2 class="accordion-header">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#c_two" aria-expanded="false" aria-controls="c_two">Lorem ipsum dolor sit amet.</button>
+                    </h2>
+                    <div id="c_two" class="accordion-collapse collapse" data-bs-parent="#acc_exp">
+                      <div class="accordion-body">
+                        <p class="mb-0">This is the second item's accordion body. It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the .accordion-body, though the transition does limit overflow.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- item end -->
+                  <!-- item start -->
+                  <div class="accordion-item">
+                    <h2 class="accordion-header">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#c_three" aria-expanded="false" aria-controls="c_three">Lorem ipsum dolors sit amet.</button>
+                    </h2>
+                    <div id="c_three" class="accordion-collapse collapse" data-bs-parent="#acc_exp">
+                      <div class="accordion-body">
+                        <p class="mb-0">This is the third item's accordion body. It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the.accordion-body, though the transition does limit overflow.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- item end -->
+                </div>
+        	</div>
+        </div>
+    <!-- accordion end -->
+
+    <!-- modal start -->
+    <h2><i>Modal</i></h2>
+    <!-- Button trigger modal -->
+       <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exp_modal">Press here to see the box</button>
+
+       <!-- Modal -->
+       <div class="modal fade" id="exp_modal" tabindex="-1" aria-labelledby="exp_modalLabel" aria-hidden="true">
+         <div class="modal-dialog">
+           <div class="modal-content">
+             <div class="modal-header">
+               <h1 class="modal-title fs-5" id="exp_modalLabel">Modal lorem ipsum dolor</h1>
+               <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+             </div>
+             <div class="modal-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, culpa!
+             </div>
+             <div class="modal-footer">
+               <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+               <button type="button" class="btn btn-danger">Save changes</button>
+             </div>
+           </div>
+         </div>
+        </div>
+    <!-- modal end -->
+
+    </div>
+
+	<script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
